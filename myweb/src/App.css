@@ -1,12 +1,17 @@
 #root {
   display: grid;
-  max-width: 1280px;
+  min-width: 1280px;
+  min-height: 720px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
   
 }
 .section{
-  background-color: gray;
-  padding:10px;
+  background-color: rgb(80, 80, 80);
+}
+.name-tag{
+  font-size:16px;
+
+  background-color: #212121;
 }
