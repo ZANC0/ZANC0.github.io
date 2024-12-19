@@ -12,20 +12,22 @@ function App() {
 
   return (
     <>
-    
-    <div className='container'>
-      <div className='name-tag'>
-        <p>Hello my name is Zanco Farrell</p>
+      <div className='container'>
+
+        <div>
+          <h3>Zanco Farrell's Blog</h3>
+          <Navbar/>
+        </div>
+        
+        <div className='section'>
+          <Routes>
+            <Route path="/" element={<AboutMe/>}/>
+            <Route path="/blog" element={<Blog/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+          </Routes>
+        </div>
+
       </div>
-      <Navbar/>
-      
-      <Routes>
-        <Route path="/" element={<AboutMe/>}/>
-        <Route path="/blog" element={<Blog/>}/>
-        <Route path="/projects" element={<Projects/>}/>
-      </Routes>
-      
-    </div>
     </>
   )
 }
