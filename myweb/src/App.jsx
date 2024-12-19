@@ -15,7 +15,7 @@ function App() {
       <div className='container'>
 
         <div>
-          <h3>Zanco Farrell's Blog</h3>
+          <p>Zanco Farrell's Blog</p>
           <Navbar/>
         </div>
         

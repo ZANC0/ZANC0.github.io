@@ -6,10 +6,7 @@ function Navbar(){
     return(
         <>
             <div className='navbar'>
-                <Link to="/">about me</Link>
-            
-                <Link to="/blog">blog</Link>
-            
+                <Link to="/">about me</Link>            
                 <Link to="/projects">projects</Link>
             </div>
         </>

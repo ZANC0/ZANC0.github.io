@@ -15,24 +15,31 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color:white;
+  text-decoration:underline;
+  cursor:default;
+
 }
 a:hover {
-  color: #535bf2;
+  cursor: default;
+  color: #aeaeae;
 }
-
+h1{
+  font-size:30px;
+}
+h2{
+  font-size:25px;
+}
+h3{
+  font-size:18px;
+}
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  cursor:default;
 }
 
 button {
@@ -52,5 +59,14 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+ul{
+  text-align: left;
+  margin: 0 150px;
+}
+li {
+  font-size:15px;
+  list-style-position: inside;
+  padding:0;
 }
 
