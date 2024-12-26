@@ -2,14 +2,14 @@
   display: flex;
   min-height: 100vh;
   
-  margin: 0 auto;
-  text-align: center;
+  
   
 }
 .container{
   display: grid;
-  grid-template-columns: 180px 1020px 100px auto;
+  grid-template-columns: 180px 1020px auto;
   gap: 10px;
+  justify-items: center;
 }
 
 .container > div {
@@ -17,7 +17,11 @@
   padding: 20px 0;
   font-size: 30px;
 }
-
-.section{
+.info-bar{
+  
+}
+.section-contents{
   background-color: gray;
+  width:50%;
+  margin:0;
 }

@@ -14,12 +14,12 @@ function App() {
     <>
       <div className='container'>
 
-        <div>
+        <div className='info-bar'>
           <p>Zanco Farrell's Blog</p>
           <Navbar/>
         </div>
         
-        <div className='section'>
+        <div className='section-contents'>
           <Routes>
             <Route path="/" element={<AboutMe/>}/>
             <Route path="/blog" element={<Blog/>}/>

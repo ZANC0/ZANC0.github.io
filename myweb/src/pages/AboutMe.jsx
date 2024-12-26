@@ -2,7 +2,7 @@ import "../App.css"
 function AboutMe(){
     return(
     <>
-        <div className="section">
+        <div>
             <h2>About</h2>
             <div>
                 <h3>Journey</h3>
