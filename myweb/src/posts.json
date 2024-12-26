@@ -1,0 +1,14 @@
+{
+    "posts":[
+        {
+            "title":"my first blog",
+            "date":"today",
+            "content":"I did it yall."
+        },
+        {
+            "title":"my second blog",
+            "date":"yeserday",
+            "content":"gungo sleep"
+        }
+    ]
+}
