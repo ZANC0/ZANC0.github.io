@@ -18,6 +18,7 @@ function App() {
         <div className='info-bar'>
           <p>Zanco Farrell's Blog</p>
           <Navbar/>
+          <UpdateBlog/>
         </div>
         
         <div className='section-contents'>
