@@ -2,7 +2,7 @@
   "name": "myweb",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://ZANC0.github.io/react-gh-pages",
+  "homepage": "https://ZANC0.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
