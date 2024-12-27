@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { createRequestHandler } from "react-router-dom"
+import "./Blog.css"
 import posts from "../posts.json"
 function Blog(){
     const [showdata, setdata] = useState(posts)
@@ -14,10 +15,10 @@ function Blog(){
                 {
                     showdata.posts.map((item, index)=>{
                         return(
-                            <div key={index}>
-                                <p>{item.title}</p>
-                                <p>{item.date}</p>
-                                <p>{item.content}</p>
+                            <div key={index} className="post">
+                                <p className="post-date">{item.date}</p>
+                                <h1 className="post-title">{item.title}</h1>
+                                <p className="post-content">{item.content}</p>
                             </div>
                         )
                         

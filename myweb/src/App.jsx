@@ -7,6 +7,7 @@ import AboutMe from './pages/AboutMe'
 import Blog from './pages/Blog'
 import Navbar from "./components/Navbar"
 import Projects from './pages/Projects';
+import UpdateBlog from './pages/UpdateBlog';
 function App() {
   const [count, setCount] = useState(0)
 

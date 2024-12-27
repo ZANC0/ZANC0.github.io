@@ -1,12 +1,12 @@
 {
     "posts":[
         {
-            "title":"my first blog",
+            "title":"my second blog",
             "date":"today",
-            "content":"I did it yall."
+            "content":"I did it yall. WE made the first ever post on this planet"
         },
         {
-            "title":"my second blog",
+            "title":"my first blog",
             "date":"yeserday",
             "content":"gungo sleep"
         }
