@@ -1,19 +1,9 @@
 {
     "posts": [
         {
-            "title": "new first blog from py file",
-            "date": "now",
-            "content": "read the title"
-        },
-        {
-            "title": "my second blog of the day",
-            "date": "now",
-            "content": "read the title"
-        },
-        {
-            "title": "my third blog of the day",
-            "date": "now",
-            "content": "read the title"
+            "title": "My first post",
+            "date": "28/12/2024, 16:22",
+            "content": "I built this website for my own personal brand, showcasing my journey, new projects and this blog is for more consistent, weekly updates about my work. \n\nThis blog is about new things, I've learned, progress on certain projects, tutorials and everything I want to share in my mind.\n\nSo stick around, stay updated and see you next week.\n\n~Zanco\n"
         }
     ]
 }
