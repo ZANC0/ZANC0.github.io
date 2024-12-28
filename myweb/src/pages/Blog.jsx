@@ -22,7 +22,7 @@ function Blog(){
                             </div>
                         )
                         
-                    })
+                    }).reverse()
                 }
             </div>
         </>
