@@ -1,14 +1,19 @@
 {
-    "posts":[
+    "posts": [
         {
-            "title":"my second blog",
-            "date":"today",
-            "content":"I did it yall. WE made the first ever post on this planet"
+            "title": "new first blog from py file",
+            "date": "now",
+            "content": "read the title"
         },
         {
-            "title":"my first blog",
-            "date":"yeserday",
-            "content":"gungo sleep"
+            "title": "my second blog of the day",
+            "date": "now",
+            "content": "read the title"
+        },
+        {
+            "title": "my third blog of the day",
+            "date": "now",
+            "content": "read the title"
         }
     ]
 }
